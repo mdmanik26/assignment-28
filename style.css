@@ -1,0 +1,170 @@
+img {
+    max-width: 100%;
+}
+
+nav ul li {
+    padding: 0px 10px;
+
+}
+
+.dropdown ul li {
+    padding: 0px 0px !important;
+
+}
+
+.commonBtn {
+    padding: 6px 14px;
+    color: white;
+    background: #8490ff;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.banner,
+.contact,
+.price_Section {
+    background: #f9f9ff;
+}
+
+.bannerInfo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secInfo {
+    max-height: 400px;
+}
+
+.aboutSecInfo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutInfo {
+    max-height: 500px;
+}
+
+.number_Counter {
+    background: #8490ff;
+}
+
+.price_Card{
+    box-shadow: 0px 0px 10px 0px #a8a7a7;
+    border-radius: 5px;
+}
+
+
+.cardBtn {
+    font-size: 18px;
+    padding: 10px 25px;
+    color: #8490ff;
+    background: white;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 20px 0px;
+    display: inline-block;
+    border: 1px solid #8490ff;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 0px 5px 0px #8490ff;
+}
+
+.cardBtn:hover {
+    color: white;
+    background: #8490ff;
+    border: 1px solid #8490ff;
+}
+
+
+
+.mem_Img {
+    width: 100px;
+    position: absolute;
+    top: -62px;
+    left: 20px;
+}
+
+.member {
+    /* height: 300px; */
+    box-shadow: 0px 0px 10px 0px #a8a7a7;
+    border-radius: 5px;
+}
+
+.memInfo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.member_Container {
+    margin-top: 100px;
+}
+
+.memBtn {
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    box-shadow: 0px 0px 10px 0px #a8a7a7;
+    display: inline-block;
+    margin-top: 15px;
+    transition: .5s;
+}
+
+.memBtn:hover {
+    background: #8490ff;
+    color: white;
+
+}
+
+.formBtn {
+    background: #14a1b7;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 13px 20px;
+    border: none;
+    font-size: 18px;
+}
+
+.formInfo{
+    margin-top: 85px;
+}
+
+.formContainer{
+    box-shadow: 0px 0px 5px 0px #a8a7a7;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* responsive css */
+
+
+@media (max-width:991px) {
+    footer p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:423px) {
+    .formInfo p{
+        font-size: 17px;
+    }
+}
+
+
+
+
